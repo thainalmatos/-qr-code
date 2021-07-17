@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "fonte";
+    src: url("K.O.\ Activista\ Font.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg-azul{
+    background-color: #2266aa;
+}
+body{
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-technology-background-image-image_264091.jpg);
+}
+.bg-azul1{
+    background-color: #0d3c6b;
+    text-align: center;
+}
+
+.header{
+    color: black;
+}
+.col-md-4{
+    margin-top: 5px;
+    background-color: #0d3c6b;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+}
+h4.extra{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+button.btn.bg-azul1 {
+    width: 900px;
+    margin-left: -15%;
+    text-align: center;
+}
+.navbar>.container-fluid{
+    align-items: center;
+}
+
+@media only screen and (max-width:426px){
+    .h1{
+        font-size: 15px;
+    }
+    button.btn.bg-azul1 {
+        width: 270px;
+    }
+}
+@media only screen and (max-width:376px){
+    .container{
+        width: 410px;
+    }
+    .header{
+        width: 410px;
+    }
+    button.btn.bg-azul1 {
+        width: 270px;
+    }
+    .footer{
+        width: 410px;
+    }
+}
+@media only screen and (max-width:321px){
+    .container{
+        width: 400px;
+    }
+    .header{
+        width: 400px;
+    }
+    button.btn.bg-azul1 {
+        width: 300px;
+    }
+    .footer{
+        width: 400px;
+    }
+}
